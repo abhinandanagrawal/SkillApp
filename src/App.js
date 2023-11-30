@@ -1,11 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-import Clock from './Clock.js';
+import Greeting from './Greeting.js';
+import Footer from './Footer.js';
 function App() {
   return (
     <div className="App">
-      <p>Starting React</p>
-      <Clock></Clock>
+      <Greeting name="John Doe" message="Welcome to the webpage"></Greeting>
+        <Footer></Footer>
     </div>
   );
 }
